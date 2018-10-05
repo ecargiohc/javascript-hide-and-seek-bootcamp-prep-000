@@ -14,6 +14,7 @@ function increaseRankBy(n) {
   }
 }
 function deepestChild() {
+<<<<<<< HEAD
   var node = document.querySelector('div#grand-node');
   var child = node.children[0]
   
@@ -23,4 +24,10 @@ function deepestChild() {
   }
   
   return node
+=======
+  var child = document.querySelector('div#grand-node');
+  for (let i=0; i < child.length; i++) {
+   child[i].innerHTML = document.querySelectorAll(child); 
+  }
+>>>>>>> 9d900724c0612ade945e6fb188a653f4dc76b7d6
 }
